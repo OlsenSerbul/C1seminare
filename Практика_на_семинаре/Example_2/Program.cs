@@ -1,15 +1,15 @@
-﻿Console.Write("Введите первое число: ");
+﻿Console.Write("Введите число А: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
+Console.Write("Введите число В: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
 int sqrNumber = numberB* numberB;
-if(numberA ==sqrNumber)
+if(numberA == sqrNumber)
  {
-    Console.WriteLine("да");
+    Console.WriteLine($"True: число А ={numberA} является квадратом числа В = {numberB}");
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine($"False: число А ={numberA} не является квадратом числа В = {numberB}");
 }
